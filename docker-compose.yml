@@ -3,7 +3,7 @@ db:
   ports:
     - "5432"
 web:
-  image: jamtur01/figdemo
+  image: jamtur01/composedemo
   command: bundle exec rackup -p 3000
   ports:
     - "3000:3000"
